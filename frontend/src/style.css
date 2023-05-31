@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 600px;
+  margin: 3rem auto 6rem;
+}
+
+.accordion {
+  margin: 30px;
+}
+
+.tab-label {
+  display: flex;
+  padding: 1em;
+  background: #333;
+  color: #fff;
+}
+
+.tab-content {
+  height: 0;
+  overflow: hidden;
+  transition: height ease 0.2s;
+}
+
+.tab-close {
+  display: flex;
+  justify-content: flex-end;
+}
+
+input {
+  display: none;
+}
+
+input:checked ~ .tab-content {
+  height: auto;
+  padding: 1em;
+}

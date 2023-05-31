@@ -1,0 +1,27 @@
+{
+  "name": "accordion",
+  "version": "1.0.0",
+  "description": "This is a simple accordion component using HTML, CSS and Vanilla JS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FridaW/Accordion.git"
+  },
+  "author": "Frida",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FridaW/Accordion/issues"
+  },
+  "homepage": "https://github.com/FridaW/Accordion#readme",
+  "devDependencies": {
+    "eslint": "^8.0.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "type": "module"
+}

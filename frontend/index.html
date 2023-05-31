@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Page App</title>
+    <link rel="stylesheet" href="./src/style.css">
+  </head>
+
+  <body>
+    <div id="app" class="container">
+      <!-- Single Accordion -->
+      <div class="accordion">
+        <h1>Single Accordion</h1>
+        <section class="tab">
+          <input type="radio" id="panel1" name="box" />
+          <label for="panel1" class="tab-label">
+						Lorem ipsum dolor sit amet?
+          </label>
+          <p class="tab-content">
+            Tenetur ullam rerum ad iusto possimus sequi mollitia dolore sunt
+            quam praesentium. Tenetur ullam rerum ad iusto possimus sequi
+            mollitia dolore sunt quam praesentium.Tenetur ullam rerum ad iusto
+            possimus sequi mollitia dolore sunt quam praesentium.
+          </p>
+        </section>
+        <section class="tab">
+          <input type="radio" id="panel2" name="box" />
+          <label for="panel2" class="tab-label">
+            Dignissimos sequi architecto?
+          </label>
+          <p class="tab-content">
+            Aperiam ab atque incidunt dolores ullam est, earum ipsa recusandae
+            velit cumque. Aperiam ab atque incidunt dolores ullam est, earum
+            ipsa recusandae velit cumque.
+          </p>
+        </section>
+        <section class="tab">
+          <input type="radio" id="panel3" name="box" />
+          <label for="panel3" class="tab-label">
+            Voluptas praesentium facere?
+          </label>
+          <p class="tab-content">
+            Blanditiis aliquid adipisci quisquam reiciendis voluptates itaque.
+          </p>
+        </section>
+        <section class="tab">
+          <input type="radio" id="panel4" name="box" />
+          <label for="panel4" class="tab-label tab-close">Close</label>
+        </section>
+      </div>
+      <!-- Multiple Accordion -->
+      <div class="accordion">
+        <h1>Multiple Accordion</h1>
+        <section class="tab">
+          <input type="checkbox" id="mulPanel1" name="mul-box" />
+          <label for="mulPanel1" class="tab-label">
+            Lorem ipsum dolor sit amet?
+          </label>
+          <p class="tab-content">
+            Tenetur ullam rerum ad iusto possimus sequi mollitia dolore sunt quam
+            praesentium. Tenetur ullam rerum ad iusto possimus sequi mollitia
+            dolore sunt quam praesentium.Tenetur ullam rerum ad iusto possimus
+            sequi mollitia dolore sunt quam praesentium.
+          </p>
+        </section>
+        <section class="tab">
+          <input type="checkbox" id="mulPanel2" name="mul-box" />
+          <label for="mulPanel2" class="tab-label">
+            Dignissimos sequi architecto?
+          </label>
+          <p class="tab-content">
+            Aperiam ab atque incidunt dolores ullam est, earum ipsa recusandae
+            velit cumque. Aperiam ab atque incidunt dolores ullam est, earum ipsa
+            recusandae velit cumque.
+          </p>
+        </section>
+        <section class="tab">
+          <input type="checkbox" id="mulPanel3" name="mul-box" />
+          <label for="mulPanel3" class="tab-label">
+            Voluptas praesentium facere?
+          </label>
+          <p class="tab-content">
+            Blanditiis aliquid adipisci quisquam reiciendis voluptates itaque.
+          </p>
+        </section>
+        <section class="tab">
+          <input type="checkbox" id="mulPanel4" name="mul-box" />
+          <label for="mulPanel4" class="tab-label tab-close" id="close">Close All</label>
+        </section>
+      </div>
+      </div>
+    </div>
+
+    <script type="module" src="./src/index.js"></script>
+  </body>
+</html>
